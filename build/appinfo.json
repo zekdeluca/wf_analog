@@ -1,0 +1,35 @@
+{
+    "versionLabel": "1.0", 
+    "projectType": "rocky", 
+    "name": "wf_analog", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "sdkVersion": "3", 
+    "capabilities": [], 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "longName": "wf_analog", 
+    "displayName": "wf_analog", 
+    "shortName": "wf_analog", 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "5cba27aa-01dc-406a-b22c-7eb2944ab033"
+}
